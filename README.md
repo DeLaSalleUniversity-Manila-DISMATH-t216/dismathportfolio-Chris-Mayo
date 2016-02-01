@@ -32,9 +32,9 @@ dismathporfolio-Chris-Mayo- created by Classroom for GitHub
 # Week 2 ( 2nd Meeting; 1/27 )
 
 | **LOGICAL SYMBOL** | **LOGICAL OPERATOR** | **SIMPLE TERM** | **FORMULA** |   **LOGICAL EQUATION**     |
-  |:------------------:|:--------------------:|:-------------:|:-----------:|:----------------------------:|
-  | → | Conditional | if then | if val(p) ≤ val(q) = 1, otherwise 0| p → q ≡  ¬p v q |
-  |↔ | Biconditional | iff | if val(p) equals val(q) = 1, otherwise 0 | p ↔ q ≡ (p → q) ∧ (q → p) |
+|:------------------:|:--------------------:|:-------------:|:-----------:|:----------------------------:|
+| → | Conditional | if then | if val(p) ≤ val(q) = 1, otherwise 0| p → q ≡  ¬p v q |
+|↔ | Biconditional | iff | if val(p) equals val(q) = 1, otherwise 0 | p ↔ q ≡ (p → q) ∧ (q → p) |
   
   
 - Conditional ( → ) when q is True = True, and when p is false = True; Biconditional is NEGATED XOR ¬(p ⊕ q) ≡ p ↔ q
