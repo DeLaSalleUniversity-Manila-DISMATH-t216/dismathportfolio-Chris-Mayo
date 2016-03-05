@@ -86,8 +86,67 @@ dismathporfolio-Chris-Mayo- created by Classroom for GitHub
 |((p) ∧ (q)) → (p ∧ q) | **Resolution** |
 
 
+
+
+
+
+
 # Week 4 ( 1st Meeting NO CLASS; 2nd Meeting 2/10 )
 
-- 
+- We are introduced to **Proofs** specifically **Direct Proofing** where We **Assume P is TRUE** and **Show that Q is TRUE**
+- Another type of Proof: **Indirect Proof or Contraposition** was discussed where **Assumpe ¬Q is TRUE** and **Show that ¬P is TRUE**
+
+
+
+
+
+
+# Week 5 ( 1st Meeting 2/15; 2nd Meeting NO CLASS 2/17 )
+
+- Other methods of proving were discussed: **Vacuous Proof ( Also having Trivial Proof ), Proof by Contradiction and Proof by Equivalence**
+- In Vacuous Proof, if **P is FALSE, then the implication is TRUE** while in Trivial Proof, **if Q is TRUE, then the implication is TRUE** 
+- In Proof by Contradiction, **We show that ¬PREMISE is true and show that at least one of its statement and rule will be violated so the it will be proven true**
+- In Proof by Equivalence, it is the concept of combination of the previous proofs
+
+
+
+
+
+
+# Week 6 ( 1st Meeting 2/22; 2nd Meeting NO CLASS 2/24 )
+
+- We've discussed about **Mathematcal Induction** where there are 2 procedures: 1st is the **BASIS: where we show P(1) is TRUE**, 2nd is the **INDUCTIVE STEP:** Using **Direct Proof**, A) we **Assume that P(k) is TRUE** and **Show that P(k+1) is TRUE** ( based on A )
+- **Recursive / Induction Definition** was also discussed where there is also the **Basis Step: where you specify the value at the function at zero** and the **Recursive Step/Inductive Step: where you define the next term using the previous term** 
+ 
+
+
+
+
+
+# Week 7 ( 1st Meeting 2/29 )
+- We are Introduced to Set Theory ( remember that Program is no a set ) **Set** = unordered collection of distinct objects (may include other sets)
+- **Subset** - A set S is a subset of a set T Denotes:**(S ⊆ T)** if all elements of S are also elements of T
+- **Cardinality** - the number of elements that the set contains
+- We've discussed about the terms from Algebra: **Union, Intersection, Set Difference and Symmetric Difference**
+- **Union A ∪ B** - objects that **belong to Set A or Set B** ; Example: {x|(x∈A) ∨ (x∈B)}
+- **Intersection A ∩ B** - also objects that **belong to set A or Set B** ; Example: {x|(x∈A) ∧ (x∈B)}
+- **Set Difference A - B or A \ B** - objects that **belong to A and NOT to B** ; Example: {x|(x∈A) ^ (x∉B)}
+- **Symmetrical Difference A∆B** - objects that **belong to A or B but not to their intersection**; Example: {x|((x∈A) ∧ (x∉B)) ∨ ((x∈B) ∧ (x∉A))}
+- Cardinality of Natural Numbers ( is infinity ) is called **Alephnought or Alephnull or Aleph-zero**
+
+# Week 7 ( 2nd Meeting 3/2 )
+
+- Introduction to Sets ( where I'm having a confusion )
+- Difference between Domain, Co Domain and Range were discussed
+- There are 3 Types of Functions: **One to One (Injective), Onto Fuction (Surjective), One to One Correspondence (Bijective)**
+- **One to One (Injective)** - Functions that never assign the same value to two different domain elements; No value in the range is used by more than one value in the domain
+- **Onto Function (Surjective)** -  Functions have equal range and codomain; For every value in the codomain, there is a value in the domain that is mapped to it ( Everythings assigned to Y )
+- **One to One Correspondence (Bijective)** - When a function is both Injective and Surjective
+
+
+
+
+
+# Week 8 ( 1st Meeting 3/7 )
 
 
