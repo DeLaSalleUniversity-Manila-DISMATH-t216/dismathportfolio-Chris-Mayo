@@ -1,5 +1,4 @@
-# dismathportfolio-Chris-Mayo
-dismathporfolio-Chris-Mayo- created by Classroom for GitHub
+Chris Mayo SECTION XE1
 
 #DISCRETE MATHEMATICS PORTFOLIO
 
