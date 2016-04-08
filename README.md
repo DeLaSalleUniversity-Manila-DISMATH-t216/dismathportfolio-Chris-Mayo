@@ -149,16 +149,16 @@ dismathporfolio-Chris-Mayo- created by Classroom for GitHub
 
 # Week 8 ( 1st Meeting 3/7 )
 
-- Introduction to Algorithm ( which is a finite ste of precise instructions for performing a computation or for solving a problem )
-- Precondition ( statements that describe valid output ) and Postcondition ( conditions that the output should satisfy when the program has run ) was discussed
+- Introduction to **Algorithm** ( which is a finite ste of precise instructions for performing a computation or for solving a problem )
+- **Precondition** ( statements that describe valid output ) and **Postcondition** ( conditions that the output should satisfy when the program has run ) was discussed
 - Pseudocode that contains: Procedure, Input, Output and The Body
 - The Properties of Algorithm are: Input, Output, Definiteness, Correctness, Finiteness, Generality
-- Searching Algorithm is about locating an element in a ordered list
+- **Searching Algorithm** is about locating an element in a ordered list
  
 # Week 8 ( 2nd Meeting 3/9 ) 
 
-- Two types of Searching Algorithm was discussed: Linear and Binary
-- Two types of Sorting Algorithm was also discussed: Bubble Sort and Insertion Sort
+- Two types of **Searching Algorithm** was discussed: **Linear and Binary*8
+- Two types of **Sorting Algorithm** was also discussed: **Bubble Sort and Insertion Sort**
 
 
 
@@ -166,8 +166,8 @@ dismathporfolio-Chris-Mayo- created by Classroom for GitHub
 
 # Week 9 ( 1st Meeting 3/14 )
 
-- Greedy Algorithm: selecting the best choice for each step, instead of considering all seuqences of steps that may lead to an optimal solution ( An example would be from coin change )
-- Growth of Functions ( Big O Notation )that requires witnesses ( Constant C and k ); also the Upperbound of the function
+- **Greedy Algorithm**: selecting the best choice for each step, instead of considering all seuqences of steps that may lead to an optimal solution ( An example would be from coin change )
+- Growth of Functions ( Big O Notation ) that requires witnesses ( Constant C and k ); also the Upperbound of the function
 - X-axis is for the input and Y-axis is for the Number of operation
 
 # Week 9 ( 2nd Meeting 3/16 )
@@ -190,41 +190,51 @@ dismathporfolio-Chris-Mayo- created by Classroom for GitHub
 
 # Week 11 ( 1st Meeting 3/28 )
 
-- Graph Theory was discussed ( A graph is a discrete structure consisting of vertices (nodes, points) and edges(lines, connections) that connect these vertices )
-- Graph G consist of Vertices/Nodes ( endpoints of graph ) and Edges( connection between 2 Vertices/Nodes )
+- **Graph Theory** was discussed ( A graph is a discrete structure consisting of vertices (nodes, points) and edges(lines, connections) that connect these vertices )
+- Graph G consist of **Vertices/Nodes** ( endpoints of graph ) and **Edges** ( connection between 2 Vertices/Nodes )
 - Degree: A Vertex with a number of edges incident with it ( Loop = 2 edges )
-- Handshake Theory: 2e=∑deg(v) then Solve for e ( Number of Edges )
-- Path: a sequence of edges, as long as you can connect the nodes, there is a path, no edge means no path
-- Subgraph: Elements are only taken from Graph, "Subset" to the original vertices & edges
-- Union: Connecting Vertices & Edges of two graphs
+- **Handshake Theory: 2e=∑deg(v)** then Solve for e ( Number of Edges )
+- **Path:** a sequence of edges, as long as you can connect the nodes, there is a path, no edge means no path
+- **Subgraph:** Elements are only taken from Graph, "Subset" to the original vertices & edges
+- **Union:** Connecting Vertices & Edges of two graphs
  
 # Week 11 ( 2nd Meeting 3/30 )
 - Continue the Discussion about Graph Theory in PArticualt Starting with Euler Circuit and Euler Path
-- To be considered as a Euler PATH: a graph should have EXACTLY 2 nodes/vertices with ODD degree
-- To be considered as a Euler CIRCUIT: a graph should have ONLY EVEN degree for all nodes/vertices
-- We also talked about the Hamilton Circuit and Hamilton Path ( The difference is that Euler are for Edges and Hamilton are for Vertices/Nodes )
-- There is no Hamilton if there are 2 Pendants ( Pendant is a vertex/node with 1 degree )
+- To be considered as a **Euler PATH:** a graph should have EXACTLY 2 nodes/vertices with ODD degree
+- To be considered as a **Euler CIRCUIT:** a graph should have ONLY EVEN degree for all nodes/vertices
+- We also talked about the **Hamilton Circuit and Hamilton Path* ( The difference is that Euler are for Edges and Hamilton are for Vertices/Nodes )
+- There is **no Hamilton Path if there are 2 Pendants** ( Pendant is a vertex/node with 1 degree )
 - Adjacency Matrix was discussed to help us graph using the given matrix ( and vice versa )
 - The Isomorphism of Graphs is when two graphs are still the same when the orientation changes
 - Planar Graphs is done by making the edges not cross each other ( Remember that K3 / Petersen Graph and K5 are not Planar )
-- Eulers Formula: r = e - v + 2 ( Where r is the number of regions, e is the number of edges and v is the number of matrices; Formula is used to solve for Number of regions )
-- Kuratowski's Theorem is when a graph is nonplanar iff it contains a subgraph homeomorphic (simply deleting nodes based on the exiting connection / subset to the original graph ) to the following graph
+- **Eulers Formula: r = e - v + 2** ( Where r is the number of regions, e is the number of edges and v is the number of matrices; Formula is used to solve for Number of regions )
+- **Kuratowski's Theorem** is when a graph is nonplanar iff it contains a subgraph homeomorphic (simply deleting nodes based on the exiting connection / subset to the original graph ) to the following graph
 
 
 
 
 
 
-# Week 12 ( 1st Meeting 4/4 )
-- QUIZ # 3
-
-
-
-
+# Week 12 ( 1st Meeting 4/4 QUIZ# 3 )
 
  
 # Week 12 ( 2nd Meeting  4/6 )
 
+- **Graph Coloring** was discussed and ADJACENT regions couldnt have the same color
+- The Chromatic number of a graph is the **LEAST** number of colors needed for a coloring of this graph
+- **Four Color Theorem** - states that the chromatic number of a planar graph is no greater than four
+- When given a cycle, if the number of vertices is **even**, then the **chromatic number is 2**, if it is **odd**, then the **chromatic number is 3**
+- A K5 has a chromatic number of 5 and a k6 has a chromatic number of 6
+- **Tree** - is a connected undirected graph with no simple circuits
+- **Forest** - when there are two or more trees in a graph
+- Some terminologies related to trees: parent, siblings, child, ancestors, descendants, leaf, and internal vertices
+- The tree is called a **full m-ary tree** if every internal vertex has exactly **m children**
+- A tree with n vertices has **n-1 edges**
+- A Full m-ary tree with i internal vertices contains **n = mi + 1 vertices**
+- A **Full m-ary tree** : **n vertices has i - (n-1) / m internal vertices; l = [(m-1) n+1] / m leaves**
+- From Full m-ary Tree: **i internal vertices has n = mi + 1 vertices and l = (m-1)i + 1 leaves**
+- Still from Full m-ary Tree: **L leaves has n = (ml-1) / (m-1) vertices and i = (l-1) / (m-1) internal vertices**
+- Automata - studies the law of Computation
 
 
 
